@@ -47,7 +47,6 @@ function pregunta() {
     var recarga = '';
     if (preguntas == 10) {
         recarga += '<p>Haz acertado ' + correctas + '/10!!</p>'
-        recarga += '<button class="btn btn-dark btn-lg btn-block" onclick="openTrivia()">Volver a jugar</button>'
         div.innerHTML = recarga;
     } else {
         recarga += '<p>Quizz</p>'
