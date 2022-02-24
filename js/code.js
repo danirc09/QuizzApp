@@ -47,7 +47,7 @@ function pregunta() {
     var recarga = '';
     if (preguntas == 10) {
         recarga += '<p>Haz acertado ' + correctas + '/10!!</p><br>'
-        recarga += '<button class="btn btn-dark btn-lg btn-block" onclick="location.reload();">Play Again!</button>'
+        recarga += '<button class="btn btn-dark" onclick="location.reload();">Play Again!</button>'
         div.innerHTML = recarga;
     } else {
         recarga += '<p>Quizz</p>'
